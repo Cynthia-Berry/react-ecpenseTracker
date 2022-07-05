@@ -30,8 +30,7 @@ const ExpenseForm = (props) => {
 
   const addExpense = (e) => {
     e.preventDefault();
-    const date = new Date(enteredDate).toUTCString()
-    const expenseFormValue = {title: enteredTitle, amount: enteredAmount, date: new Date(date)};
+    const expenseFormValue = {title: enteredTitle, amount: +enteredAmount, date: new Date(enteredDate)};
     props.onSaveExpenseData(expenseFormValue);
     setTitle('');
     setAmount(0.00);
