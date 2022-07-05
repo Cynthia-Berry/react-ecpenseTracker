@@ -1,5 +1,11 @@
 {
-  "name": "react-complete-guide",
+  "name": "expense-tracker",
+  "author": {
+    "name": "Cynthia Nwakaeme",
+    "email": "nwakaemecynthia@gmail.com",
+    "url": "https://github.com/Cynthia-Berry"
+  },
+  "description": "An application to show an individual expenditure",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
